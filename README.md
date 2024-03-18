@@ -13,7 +13,7 @@ Member : [Chen-Yu Liu](https://cylphysics.github.io/about/), Ya-Chi Lu, Chu-Hsua
 ## Project description 
 In this Hackathon project, we propose a new perspective on hybrid quantum-classical machine learning (QCML) that involves training classical neural networks (NNs) by mapping $M$ classical NN weights into an $\lceil \log_2 M \rceil$-qubit parameterized quantum state with  $2^{\lceil \log_2 M \rceil} \sim M$ amplitudes. Assuming that our parameterized quantum state, or quantum neural network (QNN), has a polynomial number of layers, the action of tuning this QNN with $\text{PolyLog}(M)$ parameters effectively tunes a classical NN with $M$ parameters. 
 
-In practice, more specifically, we need an additional mapping model (which also has  parameters) to map the probability outputs to NN weights. That is, we could train the same classical NN with a PolyLog parameter reduction. As shown in below : 
+In practice, more specifically, we need an additional mapping model (which also has $\text{PolyLog}(M)$ parameters) to map the probability outputs to NN weights. That is, we could train the same classical NN with a PolyLog parameter reduction. As shown in below : 
 
 <img src="images/training_flow.png" width="800px" align="center">
 
